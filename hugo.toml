@@ -1,0 +1,4 @@
+baseURL = 'https://utsfu.rs/'
+languageCode = 'en-au'
+title = 'UTS Furs'
+sectionPagesMenu = 'main'
