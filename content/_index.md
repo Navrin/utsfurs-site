@@ -1,10 +1,17 @@
 This is the UTS Furs landing page!
 
+{{< button href="https://utsfu.rs/signup" >}}
+Sign Up for Club Membership!
+{{< /button>}}
+
+Also, come join our socials! 
+
 {{< button href="https://utsfu.rs/discord" >}}
 Join The Discord!
 {{< /button >}}
 
-[Expression Of Interest](https://utsfu.rs/eoi)
+
+<!-- [Expression Of Interest](https://utsfu.rs/eoi) -->
 
 ## Mission Statement
 
@@ -20,3 +27,8 @@ Come join us for our various events! We’re planning on hosting regular meets, 
 If you’re interested in making fursuits, cosplays or accessories, we’re planning on hosting crafting workshops, focused on the materials, techniques, and approaches to designing fursuits! Learn how to turn a concept or an idea into a fully realised, wearable 3D costume!
 
 We welcome everyone who is open minded and interested in this community. Don’t worry if you don’t consider yourself a furry, or you don’t have a sona, it’s not important! We’re just aiming to be somewhere welcoming for anyone who doesn’t feel like they fit the norms, so if that’s you, come check us out!
+
+<br />
+<center>
+{{< mailing >}}
+</center>

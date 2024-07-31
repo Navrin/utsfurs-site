@@ -1,6 +1,7 @@
 +++
 date = 2024-04-20
 title = "Club Rules"
+showAuthor = false
 +++
 
 1. Keep it civil and respectful. Don't be hateful, insulting or otherwise generally rude to your fellow members.

@@ -1,6 +1,7 @@
 +++
 date = 2024-05-02
 title = "Constitution"
+showAuthor = false
 +++
 
 # A3 Club Constitution

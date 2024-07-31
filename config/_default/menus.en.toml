@@ -34,6 +34,11 @@ parent = "Club Info"
 name = "Constitution"
 pageRef = "constitution"
 
+[[main]]
+parent = "Club Info"
+name = "Mailing"
+pageRef = "mailing"
+
 
 #[[main]]
 #  name = "example sub-menu 1"
