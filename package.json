@@ -1,5 +1,5 @@
 {
-  "dependencies": {
-    "blowfish-tools": "^1.6.0"
-  }
+    "dependencies": {
+        "blowfish-tools": "^1.6.0"
+    }
 }

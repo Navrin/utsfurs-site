@@ -1,7 +1,11 @@
-service:
-  web:
-    build: navrin/utsfurs-site
-    args:
-      - HUGO_BASEURL=http://0.0.0.0:8080
-    ports:
-      - "8080:9595"
+name: utsfurs-site
+
+services:
+    server:
+        image: hugomods/hugo:exts-non-root-0.145.0
+        command: server -D
+        volumes:
+            - ./:/src
+            - ~/hugo_cache:/tmp/hugo_cache
+        ports:
+            - 9595:1313
