@@ -16,7 +16,7 @@ RUN hugo --minify --enableGitInfo
 #####################################################################
 #                            Final Stage                            #
 #####################################################################
-FROM hugomods/hugo:nginx-0.145.0
+FROM hugomods/hugo:nginx
 # Copy the generated files to keep the image as small as possible.
 COPY --from=builder /src/public /site
 
