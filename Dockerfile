@@ -1,7 +1,7 @@
 #####################################################################
 #                            Build Stage                            #
 #####################################################################
-FROM hugomods/hugo:exts AS builder
+FROM hugomods/hugo:exts-0.145.0 AS builder
 # Base URL
 ARG HUGO_BASEURL=
 ENV HUGO_BASEURL=${HUGO_BASEURL}
@@ -16,7 +16,7 @@ RUN hugo --minify --enableGitInfo
 #####################################################################
 #                            Final Stage                            #
 #####################################################################
-FROM hugomods/hugo:nginx
+FROM hugomods/hugo:nginx-0.145.0
 # Copy the generated files to keep the image as small as possible.
 COPY --from=builder /src/public /site
 
